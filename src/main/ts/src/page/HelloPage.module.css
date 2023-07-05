@@ -1,0 +1,289 @@
+.root {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: flex-start;
+    background-color: #050522;
+    overflow: hidden;
+}
+.welcomeMessage {
+    color: #f4f4f4;
+    font-family: Segoe UI, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    text-shadow: -1px 1px 10px #00000026;
+    flex-direction: column;
+}
+.welcome {
+    color: #ef5858;
+    font-family: Roboto, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    position: relative;
+    text-shadow: -1px 1px 10px #ef585826;
+}
+.regBg {
+    position: relative;
+    border-radius: 15px;
+    background-color: #ffde69;
+    box-shadow: -1px 1px 10px 0 #ffde6926;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.font3 {
+    color: #1b1a40;
+    font-size: 4vw;
+    font-weight: 600;
+    font-family: Segoe UI, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    position: relative;
+    text-shadow: -1px 1px 10px #1b1a4026;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.close {
+    position: relative;
+    left: 320px;
+    top: 290px;
+    width: 30px;
+    height: 30px;
+}
+.icon {
+    width: 100%;
+    height: 100%;
+}
+.bg3 {
+    position: relative;
+    left: 25px;
+    top: 377px;
+    width: 325px;
+    height: 60px;
+    outline: solid 2px #050522;
+    outline-offset: -2px;
+    border-radius: 10px;
+}
+.eye {
+    position: relative;
+    left: 310px;
+    top: 395px;
+    width: 25px;
+    height: 25px;
+}
+
+.green {
+    accent-color: green;
+    color: #0cbe0c;
+    font-weight: bolder;
+}
+
+.activeField {
+    color: #000;
+    font-size: 18px;
+    font-family: Segoe UI, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 45px;
+    top: 395px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.bg4 {
+    position: relative;
+    left: 25px;
+    top: 457px;
+    width: 325px;
+    height: 60px;
+    outline: solid 2px #050522;
+    outline-offset: -2px;
+    border-radius: 10px;
+}
+.eye2 {
+    position: relative;
+    left: 310px;
+    top: 475px;
+    width: 25px;
+    height: 25px;
+}
+
+.bg5 {
+    position: relative;
+    left: 25px;
+    top: 537px;
+    width: 325px;
+    height: 60px;
+    outline: solid 1px #050522;
+    outline-offset: -1px;
+    border-radius: 10px;
+}
+.lock {
+    position: relative;
+    left: 311px;
+    top: 555px;
+    width: 24px;
+    height: 24px;
+}
+.icon {
+    width: 100%;
+    height: 100%;
+}
+.unactiveField {
+    color: #00000080;
+    font-size: 18px;
+    font-family: Segoe UI, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 45px;
+    top: 555px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+.bg6 {
+    position: relative;
+    left: 25px;
+    top: 617px;
+    width: 325px;
+    height: 60px;
+    outline: solid 1px #050522;
+    outline-offset: -1px;
+    border-radius: 10px;
+}
+.lock2 {
+    position: relative;
+    left: 311px;
+    top: 635px;
+    width: 24px;
+    height: 24px;
+}
+.icon5 {
+    width: 100%;
+    height: 100%;
+}
+.bg7 {
+    position: relative;
+    left: 6.6667%;
+    right: 6.6667%;
+    top: 85.8374%;
+    bottom: 6.7734%;
+    border-radius: 15px;
+    background-color: #050522;
+    box-shadow: -1px 1px 10px 0px #05052226;
+}
+.regButton {
+    color: #ffde69;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Segoe UI, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 33.8667%;
+    right: 34.1333%;
+
+    text-align: center;
+    align-items: center;
+    text-shadow: -1px 1px 10px #ffde6926;
+    flex-direction: column;
+}
+.spaceAfterButton {
+    position: absolute;
+    left: 47px;
+    top: 767px;
+    width: 282px;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.labelWrapper {
+    font-size: 18px;
+    font-family: Segoe UI, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    flex-shrink: 1;
+}
+.backLabel {
+    color: #050522;
+    font-size: 18px;
+    font-family: Segoe UI, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.backLabelLink {
+    color: #ef5858;
+    font-size: 18px;
+    font-family: Segoe UI, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+
+.regFont1 {
+    color: #050522;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Segoe UI, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 25px;
+    top: 301px;
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+    flex-direction: column;
+}
+.loginButton {
+    position: relative;
+    outline: solid 3px #ffde69;
+    outline-offset: -3px;
+    box-shadow: -1px 1px 10px 0px #ffde6926;
+}
+
+.button{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    text-shadow: -1px 1px 10px #ffde6926;
+    min-width: fit-content;
+    min-height: fit-content;
+    max-width: 40%;
+    background: #050522 !important;
+    color: #ffde69 !important;
+}
+
+::-webkit-scrollbar {
+    border-radius: 10px;
+    width: 0;
+    height: 0;
+}
+
+.trueCheck{
+    accent-color: darkgreen;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffde69;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.loginFont {
+    color: #ffde69;
+    font-family: Segoe UI, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    text-shadow: -1px 1px 10px #ffde6926;
+    flex-direction: column;
+}
